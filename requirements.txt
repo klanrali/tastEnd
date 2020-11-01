@@ -1,8 +1,8 @@
 telethon >= 1.17.0
 aiofiles
-aiohttp
+aiohttp==3.6.2
 asyncurban
-beautifulsoup4
+beautifulsoup4==4.9.1
 cairosvg
 cfscrape
 coffeehouse
@@ -33,7 +33,7 @@ jotquote
 justwatch
 kwot
 lottie
-lxml
+lxml==4.5.2
 lyricsgenius
 nekos.py
 patool
