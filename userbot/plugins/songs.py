@@ -27,9 +27,6 @@ SONGBOT_BLOCKED_STRING = "<code>Please unblock @songdl_bot and try again</code>"
 # =========================================================== #
 
 
-
-
-
 @bot.on(admin_cmd(pattern="(song|song320)($| (.*))"))
 @bot.on(sudo_cmd(pattern="(song|song320)($| (.*))", allow_sudo=True))
 async def _(event):
